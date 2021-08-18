@@ -1,0 +1,15 @@
+:root {
+    --color_bg_primary: #131313;
+    --color_bg_primary_transparent: #131313C8;
+    --color_bg_secondary: #fafaff;
+    --color_bg_secondary_transparent: #fafaffC8;
+    --color_text_primary: #131313;
+    --color_text_secondary: #fafaff;
+    --color_secondary: #454545;
+    --color_transparent_primary: #45454555;
+    --color_primary: #c93fbb;
+    --color_tertiary: #fd79a8;
+    --color_tertiary_complement: #e84393;
+    --navbarToggler: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 250, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    --hero_brightness: 60%;
+}
