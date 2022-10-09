@@ -58,11 +58,19 @@ function setModeDark() {
     storage.setItem("darkMode", darkMode);
 }
 
+var currentDateElement = document.getElementById("currentDate");
+var ageElement = document.getElementById("age");
+
+let currentDate = new Date();
+
 window.addEventListener("load", function() {
     darkMode = storage.getItem("darkMode");
     document.getElementById("toggleDarkModeButton").style.display = "block";
     setModeDark();
+    currentDateElement.innerHTML = currentDate.getFullYear();
+    ageElement.innerHTML = currentDate.getFullYear() - 1998;
 })
+
 
 var typeWriterElement = document.getElementById("typewriter");
 var i = 0;

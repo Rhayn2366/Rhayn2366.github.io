@@ -30,7 +30,7 @@ h4 {
     color: var(--color_text_primary);
 }
 
-span {
+.custom-highlight {
     color: var(--color_tertiary);
     font-weight: 800;
 }

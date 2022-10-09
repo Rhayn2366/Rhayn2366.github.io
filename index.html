@@ -58,7 +58,7 @@
             <div class="hero">
                 <img id="hero-img" class="hero-img img w-100" src="assets/img/ArcMageFaction.jpg">
                 <div class="p-5 hero-text">
-                    <h1 class="p-2 m-2 border-bottom">I am <span>Oliver Kreutz</span></h1>
+                    <h1 class="p-2 m-2 border-bottom">I am <span class="custom-highlight">Oliver Kreutz</span></h1>
                     <p>A computer science student and programmer</p>
                 </div>
             </div>
@@ -69,26 +69,26 @@
         <section class="py-2 primary-background">
             <div class="container-xl">
                 <div class="m-5 jumbotron">
-                    <h2 class="mb-5 text-center"><span>About</span> me</h2>
+                    <h2 class="mb-5 text-center"><span class="custom-highlight">About</span> me</h2>
                     <div class="row">
                         <img id="portfolio-img" class="m-5 mx-auto img-fluid rounded-circle portfolio-img" src="assets/img/Oli.jpg" alt="Portfolio Bild">
                     </div>
                     <div>
                         <h2 class="text-center display-4 name">Oliver Kreutz</h2>
                         <hr class="my-4">
-                        <p class="text-left lead">Hey, I am Oliver. I am 24 years old and currently studying applied computer science at the&nbsp;<a href="https://www.htw-berlin.de">HTW</a>, in Berlin/Germany. <br><br> Next to studying, I work on my own game project called "Ancient
+                        <p class="text-left lead">Hey, I am Oliver. I am <span id="age"></span> years old and currently studying applied computer science at the&nbsp;<a href="https://www.htw-berlin.de">HTW</a>, in Berlin/Germany. <br><br> Next to studying, I work on my own game project called "Ancient
                             Kingdoms", a tower defense game loosely inspired by the warcraft series as well as some warcraft mods.
                             <br> <br> Beside that, I try to get a little bit into web development.
                         </p>
                         <hr class="my-4">
                     </div>
                     <div>
-                        <h2 class="p-3 text-center">Game <span>Project(s)</span></h2>
+                        <h2 class="p-3 text-center">Game <span class="custom-highlight">Project(s)</span></h2>
                         <div class="d-flex justify-content-center">
                             <iframe frameborder="0" src="https://itch.io/embed/929972?linkback=true&amp;bg_color=efefef&amp;border_color=000000" width="552" height="167"><a href="https://rhayn.itch.io/bomb-fighterz">Bomb Fighterz by Rhayn, AlihanAt</a></iframe>
                         </div>
                         <div class="px-5 py-3 text-center d-flex justify-content-center">
-                            Bomb Figherz was created with the unity engine and a little project to play around with multiplayer in unity.<br> We used unitys "newly aquired" MLAPI to implement the multiplayer.
+                            Bomb Figtherz was created with the unity engine and a little project to play around with multiplayer in unity.<br> We used unitys "newly aquired" MLAPI to implement the multiplayer.
                         </div>
                         <hr class="my-4">
                     </div>
@@ -99,21 +99,20 @@
                                 <div class="text-center fluid-center">
                                     <h3> Programming Languages & Frameworks: </h3>
                                     <br>
-                                    <p class="skill"><span>Mainly:</span><br>C# [Unity and WPF]</p>
-                                    <p class="skill"><span>For university stuff:</span><br>Java and [Postgre]SQL</p>
-                                    <p class="skill"><span>Webdev:</span><br>CSS [Bootstrap], HTML and JS</p>
+                                    <p class="skill"><span class="custom-highlight">Mainly:</span><br>C# [Unity, Xamarin and WPF]</p>
+                                    <p class="skill"><span class="custom-highlight">For university stuff:</span><br>Java [Spring boot] and [Postgre]SQL</p>
+                                    <p class="skill"><span class="custom-highlight">Webdev:</span><br>HTML, CSS [Bootstrap] and JS [VueJS]</p>
                                 </div>
                             </div>
                             <div class="my-5 row justify-content-center">
                                 <div class="text-center fluid-center">
                                     <h3> Software: </h3>
                                     <br>
-                                    <p class="skill"><span>3D-Modelling:</span><br>Blender</p>
-                                    <p class="skill"><span>2D-Art:</span><br>Inkscape</p>
-                                    <p class="skill"><span>Music:</span><br>Ableton Live, Audacity, FMOD and MuseScore
-                                    </p>
-                                    <p class="skill"><span>Game Engine:</span><br>Unity</p>
-                                    <p class="skill"><span>Version Control:</span><br>Git</p>
+                                    <p class="skill"><span class="custom-highlight">3D-Modelling:</span><br>Blender</p>
+                                    <p class="skill"><span class="custom-highlight">2D-Art:</span><br>Inkscape</p>
+                                    <p class="skill"><span class="custom-highlight">Music:</span><br>Ableton Live, Audacity, FMOD and MuseScore</p>
+                                    <p class="skill"><span class="custom-highlight">Game Engine:</span><br>Unity</p>
+                                    <p class="skill"><span class="custom-highlight">Version Control:</span><br>Git</p>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +130,7 @@
         <div class="container">
             <div class="pb-5 row border-bottom">
                 <div class="text-center container-fluid">
-                    <h4><i class="fas fa-arrow-circle-right"></i> <span id="typewriter"></span> <i class="fas fa-arrow-circle-left"></i></h4>
+                    <h4><i class="fas fa-arrow-circle-right"></i> <span class="custom-highlight" id="typewriter"></span> <i class="fas fa-arrow-circle-left"></i></h4>
                     <div class="p-2 footer-social-links">
                         <a href="https://www.artstation.com/rhayn98"><i class="px-2 fab fa-artstation"></i></a>
                         <a href="https://github.com/Rhayn2366"><i class="px-2 fab fa-github"></i></a>
@@ -144,7 +143,7 @@
                 </div>
             </div>
             <div class="p-5 text-center">
-                <p class="attribution">&copy; 2020-2021 ~ Created by <span>Oliver Kreutz</span> with <a href="https://getbootstrap.com/"><i class="px-1 fab fa-bootstrap"></i></a></p>
+                <p class="attribution">&copy; 2020-<span class="custom-highlight" id="currentDate"></span> ~ Created by <span class="custom-highlight">Oliver Kreutz</span> with <a href="https://getbootstrap.com/"><i class="px-1 fab fa-bootstrap"></i></a></p>
             </div>
         </div>
     </footer>
